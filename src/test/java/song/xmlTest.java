@@ -16,7 +16,7 @@ public class xmlTest {
 
     @Test
     public void xmlOV() throws Exception {
-        String filePath ="C:\\Users\\Administrator\\Desktop\\OV-5b作战活动模型.xml";
+        String filePath ="E:\\军晟\\14润科\\OV-5b作战活动模型.xml";
         service.readXML(filePath);
     }
 
