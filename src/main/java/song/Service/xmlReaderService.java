@@ -1,5 +1,9 @@
 package song.Service;
 
+import song.model.ForcesPlanModel;
+
+import java.util.List;
+
 public interface xmlReaderService {
-    void readXML(String filePath) throws Exception;
+    List<ForcesPlanModel> readXML(String filePath) throws Exception;
 }
